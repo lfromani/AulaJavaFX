@@ -66,6 +66,7 @@ public class LoginAPP extends Application {
 
 	private void logar() {
 		if ("123456".equals(txSenha.getText()) && "alunos".equals(txLogin.getText())) {
+			// Inicar alertas com "INFORMATION E ERROR"
 			Alert alert = new Alert(AlertType.INFORMATION, "Login realizado", ButtonType.CLOSE);
 			alert.show();
 		} else {
